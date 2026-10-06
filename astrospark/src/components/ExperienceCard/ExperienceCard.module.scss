@@ -1,0 +1,9 @@
+@use "../../styles/abstracts/variables" as variables;
+@use "../../styles/abstracts/mixins" as mixins;
+
+.card {
+  border-radius: variables.$radius-card;
+  transition: variables.$transition-fast;
+
+  @include mixins.interactive-card;
+}

@@ -1,0 +1,9 @@
+@mixin interactive-card {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Lune & Planètes",
+    "category": "Observation",
+    "level": "Débutant",
+    "audience": "Famille",
+    "date": "2026-10-17T21:00:00",
+    "duration": 120,
+    "price": 18,
+    "availablePlaces": 7,
+    "bringOwnEquipment": false,
+    "image": "/images/moon.webp"
+  },
+  {
+    "id": 2,
+    "title": "Premiers pas en astrophotographie",
+    "category": "Astrophotographie",
+    "level": "Intermédiaire",
+    "audience": "Adulte",
+    "date": "2026-10-24T20:30:00",
+    "duration": 180,
+    "price": 35,
+    "availablePlaces": 4,
+    "bringOwnEquipment": true,
+    "image": "/images/astrophotography.webp"
+  }
+]
