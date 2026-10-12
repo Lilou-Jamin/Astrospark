@@ -1,8 +1,10 @@
 [
   {
     "id": 1,
+    "icon": "🌙",
     "title": "Lune & Planètes",
     "category": "Observation",
+    "description": "Observez les cratères lunaires, Jupiter, Saturne et les merveilles de notre système solaire.",
     "level": "Débutant",
     "audience": "Famille",
     "date": "2026-10-17T21:00:00",
@@ -10,12 +12,29 @@
     "price": 18,
     "availablePlaces": 7,
     "bringOwnEquipment": false,
-    "image": "/images/moon.webp"
+    "image": "/images/planets.webp"
   },
   {
     "id": 2,
+    "icon": "✨",
+    "title": "Découverte du ciel profond",
+    "category": "Observation",
+    "description": "Explorez les merveilles du ciel profond, des nébuleuses aux galaxies lointaines.",
+    "level": "Débutant",
+    "audience": "Adulte",
+    "date": "2026-10-18T21:00:00",
+    "duration": 120,
+    "price": 20,
+    "availablePlaces": 5,
+    "bringOwnEquipment": false,
+    "image": "/images/deep-sky.webp"
+  },
+  {
+    "id": 3,
+    "icon": "📸",
     "title": "Premiers pas en astrophotographie",
     "category": "Astrophotographie",
+    "description": "Apprenez les bases de l'astrophotographie et capturez la beauté du ciel nocturne.",
     "level": "Intermédiaire",
     "audience": "Adulte",
     "date": "2026-10-24T20:30:00",

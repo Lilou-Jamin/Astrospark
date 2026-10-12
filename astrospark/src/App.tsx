@@ -1,12 +1,7 @@
-import { useState } from 'react'
-import './index.css'
+import Home from "./pages/Home.tsx";
 
-export default function App() {
-  return (
-    <main className="bg-background text-text">
-      <h1 className="text-5xl font-bold">
-        AstroSpark
-      </h1>
-    </main>
-  )
+function App() {
+  return <Home />;
 }
+
+export default App;

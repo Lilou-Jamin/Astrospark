@@ -1,19 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Oddval";
+  src: url("./assets/fonts/Oddval-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
-  --color-primary: #6c63ff;
-  --color-primary-light: #918bff;
-  --color-primary-dark: #4b44c9;
+  --color-primary: #7667ff;
+  --color-primary-light: #9d94ff;
+  --color-primary-dark: #5546d9;
 
-  --color-accent: #54d6ff;
+  --color-accent: #56d8ff;
+  --color-accent-soft: #b7efff;
 
-  --color-background: #080d1a;
-  --color-surface: #11182a;
-  --color-surface-light: #182238;
+  --color-background: #070b16;
+  --color-background-light: #0b1120;
 
-  --color-text: #f4f7ff;
-  --color-text-muted: #a9b3c9;
+  --color-surface: #10182a;
+  --color-surface-light: #172238;
+  --color-surface-hover: #1d2a44;
 
-  --color-success: #45d69c;
-  --color-error: #ff637d;
+  --color-text: #f6f7fb;
+  --color-text-muted: #a9b2c5;
+
+  --color-success: #4adea4;
+  --color-error: #ff647c;
+
+  --font-body: "Inter", sans-serif;
+  --font-display: "Oddval", sans-serif;
+
+  --shadow-card: 0 20px 50px rgb(0 0 0 / 0.25);
+  --shadow-glow: 0 0 40px rgb(118 103 255 / 0.20);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-text);
 }
