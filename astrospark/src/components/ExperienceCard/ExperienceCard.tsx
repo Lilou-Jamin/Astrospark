@@ -1,5 +1,6 @@
 import type { Experience } from "../../types/ExperienceCard";
 import styles from "./ExperienceCard.module.scss";
+import { Link } from "react-router-dom";
 
 interface ExperienceCardProps {
   experience: Experience;
@@ -53,12 +54,12 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
 
         </div>
 
-        <a
-          href={`/experiences/${experience.id}`}
-          className="mt-6 flex min-h-11 w-full items-center justify-center rounded-full border border-white/10 font-semibold transition hover:border-primary/50 hover:bg-primary/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+        <Link
+          to={`/experiences/${experience.id}`}
+          className="mt-6 flex min-h-11 w-full items-center justify-center rounded-full border border-white/10 font-semibold transition hover:border-primary/50 hover:bg-primary/10"
         >
           Découvrir l'expérience
-        </a>
+        </Link>
 
       </div>
     </article>

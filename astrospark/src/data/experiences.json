@@ -1,18 +1,39 @@
 [
   {
     "id": 1,
-    "icon": "🌙",
     "title": "Lune & Planètes",
+    "description": "Découvrez les merveilles de notre système solaire à travers nos télescopes.",
     "category": "Observation",
-    "description": "Observez les cratères lunaires, Jupiter, Saturne et les merveilles de notre système solaire.",
-    "level": "Débutant",
     "audience": "Famille",
-    "date": "2026-10-17T21:00:00",
+    "level": "Débutant",
+    "icon": "🌙",
     "duration": 120,
-    "price": 18,
-    "availablePlaces": 7,
-    "bringOwnEquipment": false,
-    "image": "/images/planets.webp"
+    "price": 12,
+    "image": "/images/planets.webp",
+    "longDescription": "Accompagnés de nos animateurs, observez les cratères lunaires et les planètes visibles. Une expérience accessible aux débutants comme aux familles.",
+    "highlights": [
+      "Observation au télescope",
+      "Découverte des cratères lunaires",
+      "Identification des planètes",
+      "Accompagnement par un animateur"
+    ],
+    "sessions": [
+      {
+        "id": 101,
+        "date": "2026-11-07T20:30:00",
+        "availablePlaces": 8
+      },
+      {
+        "id": 102,
+        "date": "2026-11-14T20:30:00",
+        "availablePlaces": 5
+      },
+      {
+        "id": 103,
+        "date": "2026-11-21T20:30:00",
+        "availablePlaces": 0
+      }
+    ]
   },
   {
     "id": 2,
@@ -24,10 +45,27 @@
     "audience": "Adulte",
     "date": "2026-10-18T21:00:00",
     "duration": 120,
-    "price": 20,
-    "availablePlaces": 5,
-    "bringOwnEquipment": false,
-    "image": "/images/deep-sky.webp"
+    "price": 18,
+    "image": "/images/deep-sky.webp",
+    "longDescription": "Accompagnés de nos animateurs, observez les objets du ciel profond tels que les nébuleuses et les galaxies. Une expérience enrichissante pour les passionnés d'astronomie.",
+    "highlights": [
+      "Observation au télescope",
+      "Découverte des nébuleuses et galaxies",
+      "Identification des objets du ciel profond",
+      "Accompagnement par un animateur"
+    ],
+    "sessions": [
+      {
+        "id": 104,
+        "date": "2026-11-08T21:00:00",
+        "availablePlaces": 6
+      },
+      {
+        "id": 105,
+        "date": "2026-11-14T21:00:00",
+        "availablePlaces": 5
+      }
+    ]
   },
   {
     "id": 3,
@@ -39,9 +77,21 @@
     "audience": "Adulte",
     "date": "2026-10-24T20:30:00",
     "duration": 180,
-    "price": 35,
-    "availablePlaces": 4,
-    "bringOwnEquipment": true,
-    "image": "/images/astrophotography.webp"
+    "price": 23,
+    "image": "/images/astrophotography.webp",
+    "longDescription": "Accompagnés de nos animateurs, découvrez les techniques de base pour photographier le ciel nocturne. Apprenez à utiliser votre appareil photo et à traiter vos images pour révéler la beauté des étoiles et des nébuleuses.",
+    "highlights": [
+      "Apprentissage des techniques de base de l'astrophotographie",
+      "Utilisation d'un appareil photo pour capturer le ciel nocturne",
+      "Traitement des images pour révéler les détails",
+      "Accompagnement par un animateur"
+    ],
+    "sessions": [
+      {
+        "id": 106,
+        "date": "2026-11-04T21:00:00",
+        "availablePlaces": 10
+      }
+    ]
   }
 ]

@@ -11,5 +11,4 @@ export interface Experience {
   price: number;
   date: string;
   availablePlaces: number;
-  bringOwnEquipment: boolean;
 }

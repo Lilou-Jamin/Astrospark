@@ -6,6 +6,21 @@ import { Benefit } from "../components/Benefit/Benefit";
 import { Step } from "../components/Step/Step";
 
 function Home() {
+  const experiencesList = experiences.map((experience) => {
+    const nextSession = experience.sessions
+      .filter((session) => new Date(session.date).getTime() > Date.now())
+      .sort(
+        (a, b) =>
+          new Date(a.date).getTime() - new Date(b.date).getTime()
+      )[0];
+
+    return {
+      ...experience,
+      date: nextSession?.date ?? "À venir",
+      availablePlaces: nextSession?.availablePlaces ?? 0,
+    };
+  });
+
   return (
     <div className="min-h-screen bg-background text-text">
       <Header />
@@ -146,7 +161,7 @@ function Home() {
 
 
             <div className="mt-12 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-              {experiences.map((experience) => (
+              {experiencesList.map((experience) => (
                 <ExperienceCard
                   key={experience.id}
                   experience={experience}
