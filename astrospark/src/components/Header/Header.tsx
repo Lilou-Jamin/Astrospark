@@ -9,8 +9,8 @@ export function Header() {
   const closeMenu = () => setMenuOpen(false);
 
   const navLinks = [
+    { label: "Accueil", to: "/" },
     { label: "Nos expériences", to: "/experiences" },
-    { label: "L'observatoire", to: "/#about" },
     { label: "Contact", to: "/contact" },
   ];
 

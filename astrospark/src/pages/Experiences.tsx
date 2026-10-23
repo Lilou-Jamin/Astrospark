@@ -4,6 +4,7 @@ import { Header } from "../components/Header/Header";
 import experiencesData from "../data/experiences.json";
 import { ExperienceCard } from "../components/ExperienceCard/ExperienceCard";
 import type { Experience } from "../types/Experience";
+import { Footer } from "../components/Footer/Footer";
 
 type SortOption = "date" | "price-asc" | "price-desc" | "name";
 
@@ -269,6 +270,7 @@ export default function Experiences() {
             )}
         </section>
     </main>
+    <Footer />
     </div>
   );
 }

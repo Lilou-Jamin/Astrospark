@@ -23,20 +23,19 @@ export function Footer() {
               </h2>
 
               <ul className="mt-4 space-y-3 text-sm text-text-muted">
+               <li>
+                  <a href="/" className="hover:text-text">
+                    Accueil
+                  </a>
+                </li>
                 <li>
-                  <a href="#experiences" className="hover:text-text">
+                  <a href="/experiences" className="hover:text-text">
                     Nos expériences
                   </a>
                 </li>
 
                 <li>
-                  <a href="#about" className="hover:text-text">
-                    L'observatoire
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#contact" className="hover:text-text">
+                  <a href="/contact" className="hover:text-text">
                     Contact
                   </a>
                 </li>

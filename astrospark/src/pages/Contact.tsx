@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "../components/Header/Header";
+import { Footer } from "../components/Footer/Footer";
 
 type ContactForm = {
   name: string;
@@ -394,6 +395,7 @@ export default function Contact() {
             </div>
         </section>
         </main>
+        <Footer />
     </div>
   );
 }

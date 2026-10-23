@@ -93,5 +93,191 @@
         "availablePlaces": 10
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "À la découverte des constellations",
+    "description": "Apprenez à reconnaître les constellations et à vous repérer dans le ciel étoilé.",
+    "category": "Initiation",
+    "audience": "Famille",
+    "level": "Débutant",
+    "icon": "⭐",
+    "duration": 90,
+    "price": 10,
+    "image": "/images/constellations.webp",
+    "longDescription": "Partez à la découverte du ciel nocturne avec nos animateurs. Apprenez à reconnaître les principales constellations, à retrouver l'étoile Polaire et à comprendre les mouvements apparents des étoiles. Une activité ludique et accessible à toute la famille.",
+    "highlights": [
+      "Reconnaissance des principales constellations",
+      "Repérage de l'étoile Polaire",
+      "Découverte des légendes mythologiques",
+      "Utilisation d'une carte du ciel"
+    ],
+    "sessions": [
+      {
+        "id": 107,
+        "date": "2026-11-06T20:00:00",
+        "availablePlaces": 12
+      },
+      {
+        "id": 108,
+        "date": "2026-11-20T20:00:00",
+        "availablePlaces": 8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Maîtriser son télescope",
+    "description": "Apprenez à installer, régler et utiliser votre télescope pour profiter pleinement de vos observations.",
+    "category": "Atelier",
+    "audience": "Adulte",
+    "level": "Intermédiaire",
+    "icon": "🔭",
+    "duration": 150,
+    "price": 25,
+    "image": "/images/telescope.webp",
+    "longDescription": "Vous possédez un télescope mais vous ne savez pas encore l'utiliser correctement ? Cet atelier pratique vous accompagne dans la prise en main de votre matériel : montage, équilibrage, mise en station, choix des oculaires et recherche des objets célestes.",
+    "highlights": [
+      "Installation et équilibrage du télescope",
+      "Apprentissage de la mise en station",
+      "Choix et utilisation des oculaires",
+      "Observation avec son propre matériel"
+    ],
+    "sessions": [
+      {
+        "id": 109,
+        "date": "2026-11-12T19:30:00",
+        "availablePlaces": 6
+      },
+      {
+        "id": 110,
+        "date": "2026-11-26T19:30:00",
+        "availablePlaces": 4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Photographier la Voie lactée",
+    "description": "Découvrez les techniques pour immortaliser notre galaxie dans toute sa splendeur.",
+    "category": "Astrophotographie",
+    "audience": "Adulte",
+    "level": "Avancé",
+    "icon": "🌌",
+    "duration": 240,
+    "price": 35,
+    "image": "/images/milky-way.webp",
+    "longDescription": "Lors de cet atelier d'astrophotographie avancé, apprenez à préparer une séance de prise de vue de la Voie lactée. Nos animateurs vous guideront dans le choix des réglages, la composition, la gestion de la pollution lumineuse et le traitement des photographies. La visibilité de la Voie lactée dépend de la saison et des conditions du ciel.",
+    "highlights": [
+      "Préparation d'une séance d'astrophotographie",
+      "Réglages manuels de l'appareil photo",
+      "Techniques de composition nocturne",
+      "Initiation au traitement des images"
+    ],
+    "sessions": [
+      {
+        "id": 111,
+        "date": "2027-05-08T23:00:00",
+        "availablePlaces": 5
+      },
+      {
+        "id": 112,
+        "date": "2027-05-22T23:00:00",
+        "availablePlaces": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Les secrets du Soleil",
+    "description": "Observez notre étoile en toute sécurité grâce à des instruments spécialement équipés.",
+    "category": "Observation",
+    "audience": "Famille",
+    "level": "Débutant",
+    "icon": "☀️",
+    "duration": 90,
+    "price": 14,
+    "image": "/images/sun.webp",
+    "longDescription": "Découvrez le fonctionnement du Soleil et observez sa surface avec des instruments astronomiques équipés de filtres solaires adaptés. Selon l'activité solaire, vous pourrez découvrir les taches solaires et comprendre les phénomènes qui animent notre étoile. Les observations sont encadrées par des animateurs qualifiés.",
+    "highlights": [
+      "Observation solaire avec matériel sécurisé",
+      "Découverte des taches solaires",
+      "Compréhension du fonctionnement du Soleil",
+      "Sensibilisation aux dangers de l'observation solaire sans protection"
+    ],
+    "sessions": [
+      {
+        "id": 113,
+        "date": "2026-11-15T14:00:00",
+        "availablePlaces": 10
+      },
+      {
+        "id": 114,
+        "date": "2026-11-29T14:00:00",
+        "availablePlaces": 7
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Voyage dans l'Univers",
+    "description": "Partez pour un voyage fascinant à travers les galaxies, les étoiles et les mystères du cosmos.",
+    "category": "Conférence",
+    "audience": "Tout public",
+    "level": "Débutant",
+    "icon": "🚀",
+    "duration": 90,
+    "price": 8,
+    "image": "/images/universe.webp",
+    "longDescription": "Installez-vous confortablement pour un voyage commenté à travers l'Univers. Découvrez comment naissent les étoiles, comment se forment les galaxies et ce que les astronomes savent des trous noirs. Cette conférence interactive est accompagnée d'images astronomiques et de temps d'échange avec le public.",
+    "highlights": [
+      "Découverte des galaxies et des nébuleuses",
+      "Compréhension du cycle de vie des étoiles",
+      "Présentation des trous noirs",
+      "Questions et échanges avec un animateur"
+    ],
+    "sessions": [
+      {
+        "id": 115,
+        "date": "2026-11-10T18:30:00",
+        "availablePlaces": 20
+      },
+      {
+        "id": 116,
+        "date": "2026-11-24T18:30:00",
+        "availablePlaces": 15
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Chasse aux étoiles filantes",
+    "description": "Vivez une soirée magique à observer les météores et à découvrir leur origine.",
+    "category": "Observation",
+    "audience": "Tout public",
+    "level": "Débutant",
+    "icon": "💫",
+    "duration": 150,
+    "price": 15,
+    "image": "/images/shooting-stars.webp",
+    "longDescription": "Installez-vous sous le ciel nocturne pour observer les étoiles filantes et comprendre l'origine des météores. Nos animateurs vous expliqueront les principaux essaims météoritiques et vous apprendront à observer le ciel à l'œil nu. Le nombre de météores visibles varie selon les conditions et l'activité des essaims.",
+    "highlights": [
+      "Observation des étoiles filantes à l'œil nu",
+      "Découverte des essaims météoritiques",
+      "Apprentissage des techniques d'observation",
+      "Explications sur les météores et météorites"
+    ],
+    "sessions": [
+      {
+        "id": 117,
+        "date": "2026-12-13T21:00:00",
+        "availablePlaces": 12
+      },
+      {
+        "id": 118,
+        "date": "2026-12-14T21:00:00",
+        "availablePlaces": 0
+      }
+    ]
   }
 ]
