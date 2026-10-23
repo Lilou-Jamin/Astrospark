@@ -4,6 +4,7 @@
 .card {
   border-radius: variables.$radius-card;
   transition: variables.$transition-fast;
-
+  background-color: variables.$surface;
+  
   @include mixins.interactive-card;
 }

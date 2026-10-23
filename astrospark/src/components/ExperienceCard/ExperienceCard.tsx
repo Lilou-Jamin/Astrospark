@@ -1,4 +1,4 @@
-import type { Experience } from "../../types/ExperienceCard";
+import type { Experience } from "../../types/Experience";
 import styles from "./ExperienceCard.module.scss";
 import { Link } from "react-router-dom";
 
@@ -8,8 +8,9 @@ interface ExperienceCardProps {
 
 export function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
-    <article className="group overflow-hidden rounded-3xl border border-white/8 bg-surface shadow-card transition duration-300 hover:-translate-y-1 hover:border-primary/40">
-
+    <article
+      className={`${styles.card} group overflow-hidden border border-white/8 shadow-card`}
+    >
       <div className="relative aspect-4/3 overflow-hidden">
         <img
           src={experience.image}
