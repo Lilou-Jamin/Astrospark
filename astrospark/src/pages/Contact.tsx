@@ -32,7 +32,7 @@ export default function Contact() {
     }));
   }
 
-  function handleSubmit(event) {
+  function handleSubmit(event: { preventDefault: () => void; } ) {
     event.preventDefault();
 
     setSubmitted(true);
