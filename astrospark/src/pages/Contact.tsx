@@ -64,15 +64,11 @@ export default function Contact() {
 
             <h1 className="mt-5 max-w-3xl font-display text-4xl sm:text-5xl lg:text-6xl">
                 Une question ?
-                <span className="block text-primary-light">
-                Parlons étoiles.
-                </span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-text-muted">
                 Besoin d'un renseignement sur une expérience,
                 une réservation ou le matériel nécessaire ?
-                Notre équipe est à votre écoute.
             </p>
             </div>
         </section>
@@ -270,8 +266,6 @@ export default function Contact() {
                         Notre observatoire
                     </h3>
                     <p className="mt-2 text-sm leading-6 text-text-muted">
-                        Ardennes, France
-                        <br />
                         Adresse exacte communiquée lors
                         de la réservation.
                     </p>
